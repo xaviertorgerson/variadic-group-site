@@ -1,0 +1,13 @@
+{
+  // A static site: no Worker script, only the files in ./public.
+  "name": "variadic-group-site",
+  "compatibility_date": "2026-10-28",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "variadicgroup.com", "custom_domain": true },
+    { "pattern": "www.variadicgroup.com", "custom_domain": true }
+  ]
+}
