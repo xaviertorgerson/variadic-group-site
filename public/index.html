@@ -4,23 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Variadic Group</title>
-<meta name="description" content="Variadic Group builds and runs small software businesses, each made by the same agent-run factory on the same company underneath. Its first product is Heirloom.">
+<meta name="description" content="Variadic Group is a holding company that builds and runs small software businesses with AI agents instead of a payroll.">
 <link rel="canonical" href="https://variadicgroup.com/">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#f3f4f6" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#12151d" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#06070a">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://variadicgroup.com/">
 <meta property="og:title" content="Variadic Group">
-<meta property="og:description" content="The machine that builds the machine: one company, any number of products.">
+<meta property="og:description" content="We're replacing payroll with compute.">
 <meta property="og:image" content="https://variadicgroup.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Variadic Group(Heirloom, …)">
+<meta property="og:image:alt" content="Variadic Group: we're replacing payroll with compute.">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/funnel-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/funnel-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 {
@@ -29,97 +28,116 @@
   "name": "Variadic Group",
   "legalName": "Variadic Group LLC",
   "url": "https://variadicgroup.com/",
-  "email": "hello@variadicgroup.com",
-  "founder": {"@type": "Person", "name": "Xavier Torgerson"},
-  "brand": {"@type": "Brand", "name": "Heirloom", "url": "https://heirloom.press/"}
+  "email": "hello@variadicgroup.com"
 }
 </script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="top">
-  <a class="wordmark" href="/" aria-label="Variadic Group, home">Variadic Group</a>
-  <nav aria-label="Sections">
-    <a href="#portfolio">Portfolio</a>
-    <a href="#machine">How it works</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="wordmark" href="/" aria-label="Variadic Group, home">VARIADIC<span>_GROUP</span></a>
+    <nav aria-label="Sections">
+      <a href="#approach">Approach</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
 </header>
 
 <main id="main">
-  <section class="hero" aria-labelledby="h-hero">
-    <p class="signature" aria-hidden="true"><span class="fn">Variadic Group</span><span class="punct">(</span>
-<span class="arg"><a href="#heirloom" tabindex="-1">Heirloom</a><span class="punct">,</span></span>
-<span class="arg more">…</span>
-<span class="punct">)</span></p>
-    <div class="hero-copy">
-      <h1 id="h-hero">The machine that builds the machine.</h1>
-      <p class="lede">Variadic Group is a holding company that builds and runs small software businesses. Each one is made by the same agent-run factory and stands on the same company underneath, so every new product starts with the hard parts already done.</p>
-    </div>
-  </section>
-
-  <section class="band" id="portfolio" aria-labelledby="h-portfolio">
-    <h2 id="h-portfolio">Portfolio</h2>
-    <ul class="portfolio">
-      <li id="heirloom">
-        <h3><a href="https://heirloom.press/">Heirloom</a></h3>
-        <p class="what">Photograph handwritten recipe cards or type recipes in, let family add theirs, and print a hardcover family cookbook.</p>
-        <p class="status live"><span class="dot" aria-hidden="true"></span>Live since 2026</p>
-      </li>
-      <li>
-        <h3 class="pending">Next</h3>
-        <p class="what">The second product is being chosen. It starts from the same factory and the same company.</p>
-        <p class="status"><span class="dot" aria-hidden="true"></span>In selection</p>
-      </li>
-    </ul>
-  </section>
-
-  <section class="band" id="machine" aria-labelledby="h-machine">
-    <h2 id="h-machine">How the machine works</h2>
-    <div>
-      <ol class="steps">
-        <li>A person writes the spec: what to build, and why.</li>
-        <li>Agents break it into tasks, write the code and review every change.</li>
-        <li>A change merges only when every automated check passes.</li>
-        <li>A person approves each release to production.</li>
-      </ol>
-      <p class="prose">Underneath every product is the same company: one LLC, one bank, one way to take payments and sales tax, the same legal pages, support inbox and servers. A new product inherits all of it on day one. Every decision is written down in the code repository with its reason, so the next product starts where the last one left off.</p>
-    </div>
-  </section>
-
-  <section class="band" id="ledger" aria-labelledby="h-ledger">
-    <h2 id="h-ledger">Heirloom so far</h2>
-    <div>
-      <dl class="ledger">
-        <div><dt>First commit</dt><dd>March 2026</dd></div>
-        <div><dt>Pull requests merged</dt><dd>216</dd></div>
-        <div><dt>Releases</dt><dd>30</dd></div>
-        <div><dt>Decisions written down</dt><dd>192</dd></div>
+  <section class="hero">
+    <div class="wrap">
+      <h1>We’re replacing <span class="fade">payroll</span> with compute.</h1>
+      <p class="lede">Variadic Group is a holding company for small software businesses. Instead of hiring a team for each one, we built a factory: AI agents that plan, write, test and ship the software on one shared platform, with a person setting the direction and approving every release.</p>
+      <dl class="facts">
+        <div><dt>Team per product</dt><dd>Agents, not hires</dd></div>
+        <div><dt>Shared by every product</dt><dd>One platform</dd></div>
+        <div><dt>Releases a person approves</dt><dd>All of them</dd></div>
       </dl>
-      <p class="prose built">Built by one person and a team of agents.</p>
-      <p class="note">As of October 28, 2026.</p>
     </div>
   </section>
 
-  <section class="band" id="name" aria-labelledby="h-name">
-    <h2 id="h-name">Why “variadic”</h2>
-    <p class="prose">In programming, a variadic function takes any number of arguments. Variadic Group is the company version: one company, any number of products.</p>
+  <section class="split" id="approach" aria-label="Approach">
+    <div class="wrap split-inner">
+      <div>
+        <h2 class="label">01. The problem</h2>
+        <h3>Small markets don’t get good software.</h3>
+        <p>Software has always been gated by headcount. A product needs engineers, designers, support and operations before anyone knows whether the market wants it.</p>
+        <p>So most small, specific problems never get a real product. The market is too small to pay for the team.</p>
+      </div>
+      <div>
+        <h2 class="label">02. Our approach</h2>
+        <h3>The machine that builds the machine.</h3>
+        <p>We put the team into software. Each product is built and run by agents working inside one proven stack, with automated checks on every change.</p>
+        <p>Everything a product needs that isn’t the product itself is built once and shared, so each new product starts further ahead than the last.</p>
+      </div>
+    </div>
   </section>
 
-  <section class="band contact" id="contact" aria-labelledby="h-contact">
-    <h2 id="h-contact">Contact</h2>
-    <div>
-      <p class="mail"><a href="mailto:hello@variadicgroup.com">hello@variadicgroup.com</a></p>
-      <p class="prose">For anything about Variadic Group. Heirloom customers, write to <a href="mailto:support@heirloom.press">support@heirloom.press</a>.</p>
+  <section class="questions" aria-labelledby="h-questions">
+    <div class="wrap">
+      <h2 class="label center" id="h-questions">03. Questions we get</h2>
+      <div class="qa">
+        <div>
+          <h3>“Isn’t AI-written code a maintenance problem?”</h3>
+          <p>Not when it runs inside rails. Agents work in one fixed stack, every change has to pass the tests and checks before it merges, and a person approves each release to production.</p>
+        </div>
+        <div>
+          <h3>“Aren’t these markets too small?”</h3>
+          <p>That’s the point. Without a team to pay for each product, a niche a venture-backed startup couldn’t live on can still be a good business, and there are many of them.</p>
+        </div>
+        <div>
+          <h3>“Who looks after customers?”</h3>
+          <p>Each product has its own support address, and a person answers it. Agents do the legwork: finding the order, reading the logs, drafting the fix.</p>
+        </div>
+        <div>
+          <h3>“What stops someone else from doing this?”</h3>
+          <p>Any one product is easy to copy. The factory isn’t: what each product teaches it carries into the next, so it gets faster and better with every product it ships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio" aria-labelledby="h-portfolio">
+    <div class="wrap">
+      <h2 class="label" id="h-portfolio">04. Portfolio</h2>
+      <ul class="pods">
+        <li class="pod live">
+          <p class="pod-status"><span class="dot" aria-hidden="true"></span>Live</p>
+          <p class="pod-id">Product 001</p>
+          <h3><a href="https://heirloom.press/">Heirloom</a></h3>
+          <p>Family recipe cards, photographed or typed in, turned into a printed hardcover cookbook the whole family can add to.</p>
+          <dl>
+            <div><dt>For</dt><dd>Families and food creators</dd></div>
+            <div><dt>Since</dt><dd>2026</dd></div>
+            <div><dt>Site</dt><dd><a href="https://heirloom.press/">heirloom.press</a></dd></div>
+          </dl>
+        </li>
+        <li class="pod next">
+          <p class="pod-status"><span class="dot" aria-hidden="true"></span>In selection</p>
+          <p class="pod-id">Product 002</p>
+          <h3>Next</h3>
+          <p>The next market is being chosen. It starts from the same factory.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" aria-labelledby="h-contact">
+    <div class="wrap">
+      <h2 id="h-contact">Compute, not payroll.</h2>
+      <p>If you’re interested in what we’re building, we’d like to hear from you.</p>
+      <a class="button" href="mailto:hello@variadicgroup.com">hello@variadicgroup.com</a>
     </div>
   </section>
 </main>
 
 <footer class="foot">
-  <div>
+  <div class="wrap foot-inner">
     <p>© 2026 Variadic Group LLC</p>
-    <p>Founded by Xavier Torgerson</p>
+    <p>Heirloom customers: <a href="mailto:support@heirloom.press">support@heirloom.press</a></p>
   </div>
 </footer>
 </body>
